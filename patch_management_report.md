@@ -299,5 +299,3 @@ Effective patch management is therefore a continuous process of identifying vuln
    https://news.apache.org/foundation/entry/media-alert-the-apache-software
 
 ---
-
-**Report compiled for cybersecurity internship / portfolio submission purposes.**
