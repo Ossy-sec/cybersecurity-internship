@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# 🔐 Cybersecurity Internship Projects
 
 > **Cybersecurity Analyst Internship Portfolio**
@@ -222,3 +223,6 @@ Testing should only be performed against systems for which proper authorization 
 **Cybersecurity Internship Portfolio — In Progress**
 
 New projects, security research, and practical exercises will be added as the internship progresses.
+=======
+hi
+>>>>>>> e513f6ac4b7c30bc393b183d723c229181a350ff
