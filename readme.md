@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿# 🔐 Cybersecurity Internship Projects
+# 🔐 Cybersecurity Internship Projects
 
 > **Cybersecurity Analyst Internship Portfolio**
 > A collection of cybersecurity research, security analysis, and practical projects completed during my cybersecurity internship.
@@ -197,7 +196,7 @@ Testing should only be performed against systems for which proper authorization 
 
 🎓 B.Sc. Computer Science — Cyber Security
 🔐 Cybersecurity Student
-💻 Cybersecurity Analyst
+💻 Aspiring Cybersecurity Analyst
 
 ### Areas of Interest
 
@@ -223,6 +222,3 @@ Testing should only be performed against systems for which proper authorization 
 **Cybersecurity Internship Portfolio — In Progress**
 
 New projects, security research, and practical exercises will be added as the internship progresses.
-=======
-hi
->>>>>>> e513f6ac4b7c30bc393b183d723c229181a350ff
