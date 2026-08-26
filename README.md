@@ -1,7 +1,8 @@
 # 🔐 Cybersecurity Internship Projects
 
 > **Cybersecurity Analyst Internship Portfolio**
-> A collection of cybersecurity research, security analysis, and practical projects completed during my cybersecurity internship.
+>
+> A collection of cybersecurity research, vulnerability assessment, web security, and practical security projects completed during my cybersecurity internship.
 
 ---
 
@@ -9,84 +10,79 @@
 
 This repository contains my work completed as part of my **Cybersecurity Analyst Internship**.
 
-The projects demonstrate my understanding of cybersecurity concepts through a combination of:
+The projects demonstrate my understanding of cybersecurity through a combination of:
 
-* 🔎 Security research
-* 🛡️ Vulnerability analysis
-* 🌐 Web security
-* 🔐 Security assessment
-* 📊 Risk analysis
-* 🧪 Practical cybersecurity exercises
-* 📝 Technical documentation
+- 🔎 Security research
+- 🛡️ Vulnerability analysis
+- 🌐 Web application security
+- 🔐 Security assessment
+- 📊 Risk analysis
+- 🧪 Practical cybersecurity exercises
+- 📝 Technical documentation
 
 The goal of this repository is to demonstrate both **theoretical knowledge and practical cybersecurity skills**.
 
 ---
 
-## 📂 Projects
+# 📂 Projects
 
-| Task       | Project                            | Type      | Status      |
-| ---------- | ---------------------------------- | --------- | ----------- |
-| **Task 1** | Cybersecurity Research Project     | Research  | ✅ Completed |
-| **Task 2** | Security Analysis Project          | Practical | ✅ Completed |
-| **Task 3** | Cybersecurity Project              | Practical | ✅ Completed |
-| **Task 4** | The Importance of Patch Management | Research  | ✅ Completed |
-
-> Project names will be updated as additional internship tasks are completed.
+| # | Project | Type | Status |
+|---|---|---|---|
+| **1** | The Importance of Patch Management | 🔎 Research | ✅ Completed |
+| **2** | Nikto Web Vulnerability Scanning | 🧪 Practical | ✅ Completed |
+| **3** | SQL Injection Exploitation | 🧪 Practical | ✅ Completed |
 
 ---
 
-## 📌 Task 4 — The Importance of Patch Management
+# 📌 Project 1 — The Importance of Patch Management
 
-### 📖 Research Report
+### 🔎 Research Project
 
 This project examines the importance of patch management and explains why unpatched systems remain a significant cybersecurity risk.
 
 ### Topics Covered
 
-* Patch management fundamentals
-* Vulnerability management lifecycle
-* CVE identification
-* CVSS scoring
-* Vulnerability discovery
-* Vulnerability assessment
-* Patch testing
-* Patch deployment
-* Patch verification
-* Risk-based patch prioritization
-* Legacy systems
-* Downtime concerns
-* Patch testing challenges
+- Patch management fundamentals
+- Vulnerability management lifecycle
+- CVE identification
+- CVSS scoring
+- Vulnerability discovery
+- Vulnerability assessment
+- Patch testing
+- Patch deployment
+- Patch verification
+- Risk-based patch prioritization
+- Legacy systems
+- Downtime concerns
+- Patch testing challenges
 
 ### 🌍 Real-World Case Studies
 
-The report analyzes two major cybersecurity incidents:
+#### WannaCry / EternalBlue
 
-**WannaCry / EternalBlue**
+- `CVE-2017-0144`
+- Microsoft MS17-010
+- Windows SMBv1
+- Ransomware propagation
+- Failure to apply an available security patch
 
-* `CVE-2017-0144`
-* Microsoft MS17-010
-* Windows SMBv1
-* Ransomware propagation
-* Failure to apply an available security patch
+#### Equifax Breach
 
-**Equifax Breach**
-
-* `CVE-2017-5638`
-* Apache Struts
-* Failure to apply a security update
-* Vulnerability scanning failure
-* Large-scale data exposure
+- `CVE-2017-5638`
+- Apache Struts
+- Failure to apply a security update
+- Vulnerability scanning failure
+- Large-scale data exposure
 
 ### 🛠️ Technologies / Resources
 
-* Markdown
-* GitHub
-* CVE
-* CVSS
-* CISA KEV Catalog
-* NIST SP 800-40
-* Vulnerability management concepts
+- Markdown
+- GitHub
+- CVE
+- CVSS
+- CISA KEV Catalog
+- NIST SP 800-40
+- Vulnerability management concepts
 
 ### 📄 Report
 
@@ -94,131 +90,81 @@ The report analyzes two major cybersecurity incidents:
 
 ---
 
-## 🧠 Skills Demonstrated
+# 📌 Project 2 — Nikto Web Vulnerability Scanning
 
-### Cybersecurity
+### 🧪 Practical Security Assessment
 
-* Vulnerability Management
-* Patch Management
-* Risk Assessment
-* Security Research
-* Security Analysis
-* Threat Awareness
-* Vulnerability Prioritization
-* Security Documentation
+This project demonstrates the use of **Nikto** to perform an automated vulnerability scan against a locally hosted DVWA web application.
 
-### Technical
+The objective was to identify common web server security issues, analyze the scanner output, categorize findings, and provide remediation recommendations.
 
-* Linux
-* Networking
-* Web Security
-* CVE Research
-* CVSS Analysis
-* Git & GitHub
-* Markdown
+### 🔍 Activities Performed
 
-### Security Resources
+- Installed and verified Nikto
+- Configured a local DVWA test environment
+- Performed a basic Nikto scan
+- Saved scan results to a text file
+- Analyzed reported security issues
+- Categorized findings by severity
+- Documented remediation recommendations
+- Captured screenshots of the scanning process
+- Documented Nikto's limitations
+- Compared Nikto with Nmap
 
-* NIST
-* CISA
-* MITRE CVE
-* NVD
-* Security advisories
-* Vulnerability databases
+### 🛡️ Findings Included
+
+The scan identified issues including:
+
+- Missing `X-Content-Type-Options`
+- Missing `Content-Security-Policy`
+- Missing `Strict-Transport-Security`
+- Missing `Permissions-Policy`
+- Missing `Referrer-Policy`
+- Exposed login/admin functionality
+- Deprecated `X-Frame-Options` configuration
+
+### 🛠️ Technologies / Tools
+
+- Kali Linux
+- Nikto
+- Nginx
+- DVWA
+- Linux terminal
+- Web security testing
+- Markdown
+- Git & GitHub
+
+### 📄 Project
+
+➡️ **[Open the Nikto Vulnerability Scanning Project](./nikto-vulnerability-scanning/)**
 
 ---
 
-## 🎯 Internship Objectives
+# 📌 Project 3 — SQL Injection Exploitation
 
-Through these projects, I am developing practical experience in:
+### 🧪 Practical Web Application Security
 
-1. Identifying cybersecurity risks
-2. Researching vulnerabilities
-3. Understanding real-world security incidents
-4. Assessing security weaknesses
-5. Applying risk-based security practices
-6. Documenting technical findings
-7. Using industry-standard cybersecurity resources
-8. Building a professional cybersecurity portfolio
+This project demonstrates controlled SQL Injection testing against **DVWA running locally**.
 
----
+The exercise progressed from a baseline request to SQL Injection testing and database table enumeration.
 
-## 📈 Learning Approach
+### 🔍 Activities Performed
 
-My approach combines **research + practical application**.
+- Configured DVWA with Medium security
+- Established a normal baseline request
+- Tested SQL Injection behavior
+- Demonstrated Boolean-based SQL Injection
+- Retrieved multiple database records
+- Enumerated database table names
+- Attempted column enumeration
+- Intercepted and inspected HTTP requests using Burp Suite
+- Documented successful and unsuccessful tests
+- Created a shell script documenting the exploitation process
+- Developed remediation recommendations
+
+### 💥 SQL Injection Results
+
+The Boolean SQL Injection test:
 
 ```text
-Research
-   ↓
-Understand the Security Issue
-   ↓
-Analyze the Risk
-   ↓
-Apply Security Concepts
-   ↓
-Document Findings
-   ↓
-Build Practical Skills
-```
-
----
-
-## 📚 Key References
-
-The projects in this repository use credible cybersecurity resources, including:
-
-* **NIST**
-* **CISA**
-* **MITRE CVE**
-* **National Vulnerability Database (NVD)**
-* **Microsoft Security**
-* **Apache Software Foundation**
-* Other authoritative cybersecurity sources where applicable
-
----
-
-## ⚠️ Ethical Use
-
-All practical cybersecurity activities in this repository are intended for:
-
-* Educational purposes
-* Authorized security testing
-* Cybersecurity learning
-* Defensive security research
-
-Testing should only be performed against systems for which proper authorization has been obtained.
-
----
-
-## 👤 Author
-
-**Osman Said**
-
-🎓 B.Sc. Computer Science — Cyber Security
-🔐 Cybersecurity Student
-💻 Aspiring Cybersecurity Analyst
-
-### Areas of Interest
-
-* Security Operations (SOC)
-* Vulnerability Management
-* Web Application Security
-* Penetration Testing
-* Network Security
-* Risk & Compliance
-* Security Research
-
----
-
-## 📫 Connect
-
-* **GitHub:** [Ossy-sec](https://github.com/Ossy-sec)
-* **LinkedIn:** [Osman Said](https://www.linkedin.com/in/osman-said-ab0a87339/)
-
----
-
-## ⭐ Repository Status
-
-**Cybersecurity Internship Portfolio — In Progress**
-
-New projects, security research, and practical exercises will be added as the internship progresses.
+1 OR 1=1
