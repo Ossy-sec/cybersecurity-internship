@@ -28,13 +28,53 @@ The goal of this repository is to demonstrate both **theoretical knowledge and p
 
 | # | Project | Type | Status |
 |---|---|---|---|
-| **1** | The Importance of Patch Management | 🔎 Research | ✅ Completed |
-| **2** | Nikto Web Vulnerability Scanning | 🧪 Practical | ✅ Completed |
-| **3** | SQL Injection Exploitation | 🧪 Practical | ✅ Completed |
+| **1** | Social Engineering Attacks | 🔎 Research | ✅ Completed |
+| **2** | The Importance of Patch Management | 🔎 Research | ✅ Completed |
+| **3** | Nikto Web Vulnerability Scanning | 🧪 Practical | ✅ Completed |
+| **4** | SQL Injection Exploitation | 🧪 Practical | ✅ Completed |
 
 ---
 
-# 📌 Project 1 — The Importance of Patch Management
+# 📌 Project 1 — Social Engineering Attacks
+
+### 🔎 Research Project
+
+This project examines social engineering attacks and how attackers manipulate human behavior to gain unauthorized access to information, systems, or resources.
+
+### Topics Covered
+
+- Social engineering fundamentals
+- Phishing
+- Spear phishing
+- Pretexting
+- Baiting
+- Quid pro quo
+- Tailgating
+- Psychological manipulation
+- Human factors in cybersecurity
+- Social engineering prevention
+- Security awareness
+- Defensive security practices
+
+### Security Focus
+
+The project focuses on understanding how social engineering attacks work and how organizations can reduce risk through:
+
+- Security awareness training
+- Phishing awareness
+- Strong authentication
+- Verification procedures
+- Access controls
+- Incident reporting
+- Security policies
+
+### 📄 Report
+
+➡️ **[Read the Social Engineering Research Report](./social_engineering_report.md)**
+
+---
+
+# 📌 Project 2 — The Importance of Patch Management
 
 ### 🔎 Research Project
 
@@ -90,13 +130,13 @@ This project examines the importance of patch management and explains why unpatc
 
 ---
 
-# 📌 Project 2 — Nikto Web Vulnerability Scanning
+# 📌 Project 3 — Nikto Web Vulnerability Scanning
 
 ### 🧪 Practical Security Assessment
 
 This project demonstrates the use of **Nikto** to perform an automated vulnerability scan against a locally hosted DVWA web application.
 
-The objective was to identify common web server security issues, analyze the scanner output, categorize findings, and provide remediation recommendations.
+The objective was to identify common web server security issues, analyze scanner output, categorize findings, and provide remediation recommendations.
 
 ### 🔍 Activities Performed
 
@@ -140,7 +180,7 @@ The scan identified issues including:
 
 ---
 
-# 📌 Project 3 — SQL Injection Exploitation
+# 📌 Project 4 — SQL Injection Exploitation
 
 ### 🧪 Practical Web Application Security
 
